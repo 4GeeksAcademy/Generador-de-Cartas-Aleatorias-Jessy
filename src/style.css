@@ -1,11 +1,13 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: rgb(8, 141, 6);
-    display: flex;
-    justify-content: center;
+body {
+  background-image: url("/workspaces/Generador-de-Cartas-Aleatorias-Jessy/src/assets/img/10091769.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -56,7 +58,7 @@ body{
 #reloadButton {
     width: 150px;
     height: 60px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
