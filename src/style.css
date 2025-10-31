@@ -1,5 +1,72 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(8, 141, 6);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 2px 2px 8px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 30px;
+}
+
+#cardValor {
+    width: 100%;
+    height: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.palo {
+    width: 100%;
+    height: 25%;
+    font-size: 120px;
+    margin: 0px;
+}
+
+#paloRotado {
+    width: 100%;
+    height: 20%;
+    transform: rotate(180deg);
+}
+
+#reloadButton {
+    width: 150px;
+    height: 60px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #0e6f04;
+  border-color: #72ee62;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px;
+}
+
+#reloadButton:hover {
+  background-color: #70f329;
 }
